@@ -1,0 +1,25 @@
+[package]
+name = "cioEvm"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "cioEvm"
+path = "src/main.rs"
+
+[dependencies]
+marine-rs-sdk = "0.14.0"
+bytes = "1.6.0"
+ethers-contract-derive = "2.0.14"
+rand = "0.8.5"
+serde = "1.0.198"
+serde_json = "1.0.116"
+chrono = "0.4"
+ethers-core = "2.0.14"
+hex = "0.4.3"
+ethabi = "14.1.0"
+ethabi-contract = "11.0.0"
+ethabi-derive = "14.1.0"
+
+[dev-dependencies]
+marine-rs-sdk-test = "0.16.1"

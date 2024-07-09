@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "src/services/cio-evm/modules/cio-evm",
+  "src/services/cio-evm/modules/facade"
+]
